@@ -10,7 +10,7 @@
    ./save/ResNet/
    ```
 
-3. Ensure the weights file is named `pred_best_checkpoint_99-2.tar` and correctly placed in the above directory.
+3. Ensure the weights file is named `pred_best_checkpoint_99-2.tar` and correctly placed in the directory above.
 
 ## Important Notes
 

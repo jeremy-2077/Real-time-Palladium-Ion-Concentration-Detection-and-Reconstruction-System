@@ -1,0 +1,28 @@
+# general
+seed: 42
+workers: 8
+dataset_dir: "./datasets/split_data"
+
+# train options
+batch_size: 128
+image_size: 224
+start_epoch: 500
+epochs: 500
+aug_ratio: 0.25
+pretrained: True
+recon_epochs: 30
+pred_epochs: 70
+
+# model options
+resnet: "ResNet18" # ResNet18 / ResNet34 / ResNet50
+model_path: "save/ResNet"
+reload: False
+feature_dim: 128
+
+# loss options
+learning_rate: 0.0005
+weight_decay: 0.
+
+
+#eval options
+eval_epoch: 172
